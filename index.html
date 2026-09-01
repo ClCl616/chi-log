@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f2efe8">
+  <meta name="description" content="배운 것, 만든 것, 생각한 것을 한곳에 모으는 개인 아카이브 CHI.LOG">
+  <meta property="og:title" content="CHI.LOG — Personal Archive">
+  <meta property="og:description" content="배운 것, 만든 것, 생각한 것을 한곳에 모으는 개인 아카이브">
+  <meta property="og:type" content="website">
+  <title>CHI.LOG — Personal Archive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 바로가기</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="CHI.LOG 홈">CHI<span>.</span>LOG</a>
+    <nav aria-label="주요 메뉴">
+      <a href="#about">소개</a><a href="#work">프로젝트</a><a href="#notes">기록</a><a href="#links">링크</a>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="색상 모드 전환" title="색상 모드 전환">
+      <span aria-hidden="true">◐</span>
+    </button>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="eyebrow"><span class="status-dot"></span> Personal archive · Seoul</div>
+      <h1>배운 것, 만든 것,<br><em>생각한 것</em>을 기록합니다.</h1>
+      <p class="hero-copy">일과 생활에서 발견한 쓸모 있는 것들을 모으고, 작은 도구로 만들고, 다시 꺼내 쓰는 개인 공간입니다.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#work">프로젝트 보기 <span>↘</span></a>
+        <a class="button" href="#notes">최근 기록</a>
+      </div>
+      <div class="hero-index" aria-hidden="true">01 — HOME</div>
+    </section>
+
+    <section class="section split" id="about">
+      <div class="section-label"><span>01</span> ABOUT</div>
+      <div class="section-content about-grid">
+        <h2>안녕하세요.<br>꾸준히 탐색하고<br>정리하는 사람입니다.</h2>
+        <div class="prose">
+          <p>이 페이지는 포트폴리오이자 메모장, 링크 모음이자 작은 실험실입니다. 관심 있는 주제를 깊게 파고들고, 그 과정에서 얻은 결과를 오래 남는 형태로 정리합니다.</p>
+          <p>지금은 <strong>AI 활용, 소프트웨어, 생산성, 일상의 기록</strong>에 관심을 두고 있습니다.</p>
+          <div class="tags" aria-label="관심 분야"><span>AI</span><span>BUILDING</span><span>WRITING</span><span>LIFE</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="work">
+      <div class="section-label"><span>02</span> SELECTED WORK</div>
+      <div class="section-heading"><h2>최근 프로젝트</h2><p>문제를 발견하고 직접 만든 것들</p></div>
+      <div class="project-list">
+        <article class="project-card featured">
+          <div class="project-number">01</div>
+          <div><p class="meta">PERSONAL SYSTEM · 2026</p><h3>CHI.LOG</h3><p>흩어진 기록과 도구, 관심사를 한곳에 모으는 개인 디지털 허브.</p><div class="tags"><span>HTML</span><span>CSS</span><span>GITHUB PAGES</span></div></div>
+          <a href="https://github.com/ClCl616/chi-log" target="_blank" rel="noreferrer" aria-label="CHI.LOG GitHub 저장소 열기">↗</a>
+        </article>
+        <article class="project-card placeholder">
+          <div class="project-number">02</div><div><p class="meta">NEXT PROJECT</p><h3>다음 프로젝트</h3><p>새로운 작업을 시작하면 이 카드의 내용을 교체해 보세요.</p></div><span>—</span>
+        </article>
+        <article class="project-card placeholder">
+          <div class="project-number">03</div><div><p class="meta">SMALL EXPERIMENT</p><h3>작은 실험</h3><p>짧게 만들고 배운 결과도 충분히 좋은 프로젝트가 됩니다.</p></div><span>—</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="notes">
+      <div class="section-label"><span>03</span> RECENT NOTES</div>
+      <div class="section-heading"><h2>최근 기록</h2><p>생각과 배움을 짧고 명료하게</p></div>
+      <div class="note-grid">
+        <article><time datetime="2026-09-01">2026.09.01</time><span class="note-type">START</span><h3>나만의 페이지를 시작하며</h3><p>기록이 쌓일 장소를 먼저 만들었다. 완벽한 글보다 계속 돌아올 수 있는 공간을 목표로 한다.</p><a href="#" aria-label="나만의 페이지를 시작하며 읽기">읽기 <span>→</span></a></article>
+        <article><time datetime="2026-08-25">2026.08.25</time><span class="note-type">NOTE</span><h3>좋은 도구의 조건</h3><p>자주 쓰는 도구는 기능이 많은 도구가 아니라, 필요할 때 생각 없이 꺼낼 수 있는 도구다.</p><a href="#" aria-label="좋은 도구의 조건 읽기">읽기 <span>→</span></a></article>
+        <article><time datetime="2026-08-10">2026.08.10</time><span class="note-type">LOG</span><h3>이번 달의 관심사</h3><p>AI를 일상적인 워크플로에 자연스럽게 연결하는 방법을 실험하고 있다.</p><a href="#" aria-label="이번 달의 관심사 읽기">읽기 <span>→</span></a></article>
+      </div>
+    </section>
+
+    <section class="section split links-section" id="links">
+      <div class="section-label"><span>04</span> LINKS</div>
+      <div class="section-content">
+        <h2>더 찾아보기</h2>
+        <div class="link-list">
+          <a href="https://github.com/ClCl616" target="_blank" rel="noreferrer"><span>GitHub</span><small>코드와 프로젝트</small><b>↗</b></a>
+          <a href="mailto:hello@example.com"><span>Email</span><small>연락하기</small><b>↗</b></a>
+          <a href="#notes"><span>Archive</span><small>모든 기록</small><b>→</b></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#top">CHI<span>.</span>LOG</a><p>© <span id="year"></span> CHI.LOG. Built with curiosity.</p><a href="#top">TOP ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
